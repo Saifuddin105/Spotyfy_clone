@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.brand img {
+    width: 60px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.container {
+    min-height: 70vh;
+    background: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("pink-flyed.jpg");
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 75px;
+}
+
+.songItem {
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.songItem img {
+    width: 43px;
+    margin: 0 17px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 18px;
+
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 8vw;
+    display: flex;
+    top: 50px;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.songInfo p {
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity .8s ease-in;
+}
